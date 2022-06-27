@@ -1,0 +1,57 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #223a70;
+}
+
+.title {
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100%);
+  list-style: none;
+}
+
+li {
+  margin-right: 30px;
+}
+
+footer {
+  position: relative;
+  /*絶対位置*/
+  bottom: 0;
+}
+
+.parent {
+  width: calc(100%);
+  position: absolute;
+  bottom:30px;
+}
+
+.word {
+  font-size: 70px;
+}
+
+.item1 {
+  display: block;
+  width: calc(50%);
+  height: auto;
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+}
+
+.item2 {
+  background: #223a70;
+  height: 180px;
+  width: calc(75%);
+}
