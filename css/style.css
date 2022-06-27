@@ -50,6 +50,10 @@ footer {
   right: 0;
 }
 
+.item1 img {
+  width: 100%;
+}
+
 .item2 {
   background: #223a70;
   height: 180px;
